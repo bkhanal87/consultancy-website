@@ -1,30 +1,50 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
+    padding: 0; 
+
 }
 
-.container {
+#about {
+    background: linear-gradient(rgba(0,0,0,0), #777799),
+    url(img/pexels-veeterzy-303383.jpg);
+    background-size: cover; 
+    background-position: center; 
+    height: 150vh;
+}
+
+#about {
+    margin:auto;
+    width: 100%;
+    border: 3px solid green;
+    padding:100px; 
     text-align: center;
+    color: white;
+    font-size: large;
+    font-style: italic;
 }
 
-textarea {
-    width: 80%;
-    height: 100px;
-    margin-bottom: 10px;
+#footer {
+    width: 100%;
+    position:relative;
+    left: 0;
+    bottom:0;
+    background-color: #333;
+    text-align: center;
+    z-index: 10;
+    height: 150px;
+    color:white;
+    padding:20px;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-button {
-    padding: 10px;
-    cursor: pointer;
+.copyright p{
+    display: block;
+    clear: both;
 }
 
-#output {
-    margin-top: 20px;
-}
+
+
 
