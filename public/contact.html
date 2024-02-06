@@ -4,48 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./contact.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
+  
     <div class="container">
+      
         <form>
-          <div class="form-group">
-            <h1 style="text-align: center; margin-top: 30px;">Get in Touch</h1>
-            <h3 style="text-align: center;">Explore our Help Docs or contact our team</h3>
-            <div class="row">
-              <div class="col">
-                <label class="exampleInputEmail1">First Name</label>
-                <input type="text" class="form-control" placeholder="First Name">
+          
+            <div class="form-group">
+              <h1 style="text-align: center; margin-top: 30px;">Get in Touch</h1>
+              <h3 style="text-align: center;">Explore our Help Docs or contact our team</h3>
+              <div class="row">
+                <div class="col">
+                  <label>First Name</label>
+                  <input type="text" id="firstNameField" class="form-control">
+                </div>
+                <div class="col">
+                  <label>Last Name</label>
+                  <input type="text" id="lastNameField" class="form-control">
+                </div>
               </div>
-              <div class="col">
-                <label class="exampleInputEmail1">Last Name</label>
-                <input type="text" class="form-control" placeholder="Last name">
+              <div class="row">
+                <div class="col">
+                  <label>Phone Number</label>
+                  <input type="text" id="phoneNumberField" class="form-control">
+                </div>
+                
               </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <label class="exampleInputEmail1">Email</label>
-                <input type="text" class="form-control" placeholder="Email">
+              <br>
+              <div class="row">
+                <label>Comments</label>
+                <textarea class="form-control" id="floatingTextarea2"
+                  style="height: 100px"></textarea>
+                
               </div>
-              <div class="col">
-                <label class="exampleInputEmail1">Phone Number</label>
-                <input type="text" class="form-control" placeholder="Phone Number">
-              </div>
-            </div>
-            <div class="form-floating">
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-              <label for="floatingTextarea2">Comments</label>
-            </div>
-          <br>
-          <button style="margin-left: 50%;"  class="btn btn-primary">Submit</button>
+        
+          
+            <br>
+            <button style="margin-left: 50%;" class="btn btn-primary">Submit</button>
         </form>
+      <br>
+      <br>
+
+      <!-- On submit, a dialog box opens that says "Thank you for reaching out to us! We value your feedback. Our dedicated team is here to assist you." -->
+      
+      <div class="card bg-dark border-info mb-3 text-center text-white" style="max-width: 18rem;">
+        <div class="card-body text-info">
+          <h5 class="card-title"><strong>Office Address:</strong></h5>
+          <p class="card-text">Liberty Township, Ohio, US</p>
+        </div>
+        
       </div>
-      <div>
-        <h3>Hours:</h3>
-        <p>Monday thru Friday</p>
-        <p>8a to 5p</p>
+      <div class="card bg-dark border-info mb-3 text-center text-white" style="max-width: 18rem;">
+        <div class="card-body text-info">
+          <h5 class="card-title"><strong>Office Address:</strong></h5>
+          <p class="card-text">Liberty Township, Ohio, US</p>
+        </div>
+        
       </div>
+
+
+      <div class="social-icons">
+        <p><strong>Connect With Us:</strong></p>
+        <!-- Replace the "#" with your actual social media links -->
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">Twitter</a>
+        <a href="#" target="_blank">Instagram</a>
+      </div>
+      <div class="hours">
+        <p><strong>Business Hours:</strong></p>
+        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+        <p>Saturday: 10:00 AM - 4:00 PM</p>
+        <p>Closed on Sundays and Holidays</p>
+      </div>
+    
+      <!-- <div class="container">
+        <div class="card">
+          <div class="col-sm">
+            <p>connect with us</p>
+          </div>
+          <div class="col-sm">
+            2 of 3
+          </div>
+          <div class="col-sm">
+            3 of 3
+          </div>
+        </div>
+      </div> -->
+
+      <div class="container-fluid">
+        <div class="card">
+          <div class="col-sm">
+            <h1>Our Hours:</h1>
+            <p>Monday thru Friday:</p>
+            <p>9am - 5pm</p>
+          </div>
+        </div>
+      </div>
+    
 </body>
+<script src="script.js"></script>
 </html>
 
 

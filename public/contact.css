@@ -1,0 +1,57 @@
+body {
+	background-image: url(img/bckgaa.jpg); 
+	/* background-size: cover; */
+	opacity: 80%;
+}
+
+
+.form {
+    width: 380px;
+    margin: 4em auto;
+    border: 1px solid #1f1f1f;
+    padding: 3em 2em 2em 2em;
+    box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 0px 1px 2px 0px
+}
+.form-group {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+
+
+input {
+	font-size: 0px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	background: #fafafa;
+	color: #636363;
+	width: 100%;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #757575;
+}
+
+input:focus { outline: none; }
+
+label {
+	color: black; 
+	font-size: 20px;
+	font-weight: 400;
+	position: relative;
+	pointer-events: none;
+	left: 2px;  
+	/* top: 10px;  */
+	transition: all 0.2s ease; 
+}
+
+input:focus+label,
+input:valid+label {
+	top: 0;
+	font-size: 12px;
+	color: #333;
+}
+
+.card bg-dark border-info mb-3 text-center text-white {
+	display: flex;
+	justify-content: space-between;
+}
